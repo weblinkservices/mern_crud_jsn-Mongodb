@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "name": "Mobile",
+      "username": "apple",
+      "email": "applemobile@gmail.com",
+      "phone": "7681943",
+      "id": 1
+    },
+    {
+      "name": "Abc",
+      "username": "abc2123",
+      "email": "abc@gmail.com",
+      "phone": "985623",
+      "id": 3
+    },
+    {
+      "name": "trivia",
+      "username": "trivaipatil",
+      "email": "trivia@123.com",
+      "phone": "12345",
+      "id": 4
+    }
+  ]
+}
