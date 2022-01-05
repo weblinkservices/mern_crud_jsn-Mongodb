@@ -60,15 +60,15 @@ const AllUsers = () => {
                     {
                         users.map(user=>(
                             <TableRow className={classes.row}> 
-                                <TableCell>{user.id}</TableCell>
+                                <TableCell>{user._id}</TableCell>
                                 <TableCell>{user.name}</TableCell>
                                 <TableCell>{user.username}</TableCell>
                                 <TableCell>{user.email}</TableCell>
                                 <TableCell>{user.phone}</TableCell>
                                 <TableCell>
                                 <Button variant="contained" color="primary" style={{marginRight:10}}
-                                     component={Link} to={`/edit/${user.id}`}>Edit</Button>
-                                    <Button variant="contained" onClick={()=>deleteUserData(user.id)} color="secondary">Delete</Button>
+                                     component={Link} to={`/edit/${user._id}`}>Edit</Button>
+                                 <Button variant="contained" onClick={()=>deleteUserData(user._id)} color="secondary">Delete</Button>
                                 </TableCell>
                             </TableRow>
                         ))

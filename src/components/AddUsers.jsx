@@ -37,7 +37,7 @@ const AddUsers = () => {
     const addUserDetails=async()=>{
         await addUsers(user);
 
-        history.push("./all-user") //after save go this url
+        history.push("/all-user") //after save go this url
     }
 
 
